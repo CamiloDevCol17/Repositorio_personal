@@ -1,0 +1,744 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Camilo Andrés Valderrama Alzate — Desarrollador de software</title>
+<meta name="description" content="Camilo Andrés Valderrama Alzate, desarrollador de software en Medellín, disponible para nuevas oportunidades laborales. Experiencia en aplicaciones web, sistemas de gestión y plataformas de datos." />
+<meta property="og:title" content="Camilo Andrés Valderrama Alzate — Desarrollador de software" />
+<meta property="og:description" content="Desarrollador de software disponible para contratación. Conoce mis proyectos en datos, sistemas de gestión y desarrollo web." />
+<meta property="og:image" content="assets/vigia.webp" />
+<meta name="theme-color" content="#0b0b0c" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b0b0c'/%3E%3Ctext x='50%25' y='56%25' text-anchor='middle' dominant-baseline='middle' font-family='Arial Black,Arial' font-weight='900' font-size='30' fill='%23ff5a1f'%3EC%3C/text%3E%3C/svg%3E" />
+<link href="https://api.fontshare.com/v2/css?f[]=clash-display@500,600,700&f[]=switzer@400,500,700&display=swap" rel="stylesheet" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+<script>document.documentElement.classList.add('js')</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","name":"Camilo Andrés Valderrama Alzate","jobTitle":"Desarrollador de software","address":{"@type":"PostalAddress","addressLocality":"Medellín","addressCountry":"CO"},"alumniOf":{"@type":"CollegeOrUniversity","name":"Institución Universitaria Pascual Bravo"}}
+</script>
+</head>
+<body>
+
+<!-- Preloader -->
+<div class="loader" aria-hidden="true">
+  <div class="loader__top">
+    <span class="mono">camilo.dev — iniciando</span>
+    <span class="mono">6.2442° N · 75.5812° O</span>
+  </div>
+  <div class="loader__count"><span id="loaderNum">000</span><small>%</small></div>
+  <div class="loader__log mono" id="loaderLog">› cargando módulos…</div>
+  <div class="loader__bar"><i id="loaderBar"></i></div>
+</div>
+
+<div class="grain" aria-hidden="true"></div>
+<div class="progress" aria-hidden="true"><i id="progressBar"></i></div>
+<div class="cursor" aria-hidden="true"><span class="cursor__dot"></span><span class="cursor__ring"><em id="cursorLabel"></em></span></div>
+
+<!-- Header -->
+<header class="nav" id="nav">
+  <a href="#inicio" class="nav__brand" data-link aria-label="Inicio">
+    <span class="nav__mark">C</span>
+    <span class="nav__name">Camilo Valderrama</span>
+  </a>
+  <nav class="nav__links" aria-label="Principal">
+    <a href="#proyectos" data-link>Proyectos</a>
+    <a href="#sobre" data-link>Sobre mí</a>
+    <a href="#terminal" data-link>Terminal</a>
+    <a href="#contacto" data-link>Contacto</a>
+  </nav>
+  <div class="nav__meta mono"><span class="pulse"></span><span id="clock">MDE --:--</span></div>
+  <button class="nav__burger" id="burger" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span></button>
+</header>
+
+<div class="menu" id="menu" aria-hidden="true">
+  <nav aria-label="Menú móvil">
+    <a href="#proyectos" data-link><small>01</small>Proyectos</a>
+    <a href="#sobre" data-link><small>02</small>Sobre mí</a>
+    <a href="#terminal" data-link><small>03</small>Terminal</a>
+    <a href="#contacto" data-link><small>04</small>Contacto</a>
+  </nav>
+  <div class="menu__social">
+    <a href="https://wa.me/573013129658" target="_blank" rel="noopener">WhatsApp: +57 301 312 9658 ↗</a>
+    <a href="https://www.linkedin.com/in/camilo-valderrama-dev" target="_blank" rel="noopener">LinkedIn / camilo-valderrama-dev ↗</a>
+  </div>
+  <p class="mono menu__foot">Medellín, Colombia · Disponible para contratación inmediata</p>
+</div>
+
+<main>
+<!-- HERO -->
+<section class="hero" id="inicio">
+  <canvas id="field" class="hero__field" aria-hidden="true"></canvas>
+  <div class="hero__glow" aria-hidden="true"></div>
+
+  <div class="hero__inner">
+    <p class="hero__kicker mono reveal-line"><span class="tag-dot"></span>Desarrollador de software · Disponible para contratación</p>
+    <h1 class="hero__title" aria-label="Camilo Andrés Valderrama Alzate">
+      <span class="line"><span class="split">Camilo</span> <span class="split italic-ish">Andrés</span></span>
+      <span class="line"><span class="split outline">Valderrama</span></span>
+      <span class="line"><span class="split">Alzate</span><span class="hero__badge" aria-hidden="true"><svg viewBox="0 0 120 120"><defs><path id="circ" d="M60,60 m-46,0 a46,46 0 1,1 92,0 a46,46 0 1,1 -92,0"/></defs><text><textPath href="#circ">CÓDIGO CON PROPÓSITO · DESDE MEDELLÍN · </textPath></text></svg><b>↓</b></span></span>
+    </h1>
+
+    <div class="hero__bottom">
+      <p class="hero__lede reveal-line">Desarrollador de software listo para integrarme a tu equipo. Construyo herramientas que entregan resultados comerciales y técnicos: plataformas de datos masivos, sistemas de soporte TI y aplicaciones web optimizadas.</p>
+      <ul class="hero__facts mono reveal-line">
+        <li><span>Disponibilidad</span><b>Inmediata</b></li>
+        <li><span>Modalidad</span><b>Remoto / MDE</b></li>
+        <li><span>Proyectos en línea</span><b>03</b></li>
+      </ul>
+    </div>
+  </div>
+
+  <a href="#proyectos" class="hero__scroll mono" data-link>Desliza para explorar<i></i></a>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee__track">
+    <span>Datos abiertos</span><b>✦</b><span>Sistemas de gestión</span><b>✦</b><span>Experiencias web</span><b>✦</b><span>Diseño responsivo</span><b>✦</b><span>Transparencia</span><b>✦</b>
+    <span>Datos abiertos</span><b>✦</b><span>Sistemas de gestión</span><b>✦</b><span>Experiencias web</span><b>✦</b><span>Diseño responsivo</span><b>✦</b><span>Transparencia</span><b>✦</b>
+  </div>
+</div>
+
+<!-- PROJECTS -->
+<section class="work" id="proyectos">
+  <div class="work__head">
+    <p class="eyebrow mono">(Proyectos seleccionados)</p>
+    <h2 class="section-title">Tres problemas.<br/><em>Tres soluciones en línea.</em></h2>
+  </div>
+
+  <div class="work__pin">
+    <div class="work__track" id="track">
+
+      <!-- VIGIA -->
+      <article class="panel" data-accent="#d4a73a" data-bg="#14120c" style="--accent:#d4a73a">
+        <div class="panel__info">
+          <div class="panel__meta mono"><span>01 / 03</span><span class="stamp">Proyecto maestro</span></div>
+          <h3 class="panel__title">Vigía</h3>
+          <p class="panel__sub">Expediente de contratación pública con datos abiertos de SECOP II</p>
+          <p class="panel__desc">Un prototipo de monitoreo ciudadano que reúne los contratos públicos de Colombia en un solo expediente: filtros por entidad, departamento, municipio, modalidad y fechas; gráficas de contratos en el tiempo, rankings de entidades y proveedores, y un sistema de alertas de riesgo. Las cifras salen directamente del dataset público y no constituyen una acusación contra nadie.</p>
+          <dl class="panel__stats">
+            <div><dt class="mono">Contratos</dt><dd data-count="58160">58.160</dd></div>
+            <div><dt class="mono">Entidades</dt><dd data-count="2404">2.404</dd></div>
+            <div><dt class="mono">Proveedores</dt><dd data-count="54191">54.191</dd></div>
+          </dl>
+          <ul class="chips mono"><li>SECOP II</li><li>Datos abiertos</li><li>Base de datos</li><li>Dashboards</li><li>Render</li></ul>
+          <a class="btn btn--accent magnetic" href="https://anticorrupcion-estatal-1.onrender.com/" target="_blank" rel="noopener" data-cursor="Abrir">Ver Vigía en vivo <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="panel__visual">
+          <a class="frame tilt" href="https://anticorrupcion-estatal-1.onrender.com/" target="_blank" rel="noopener" data-cursor="Visitar" aria-label="Abrir Vigía">
+            <div class="frame__bar"><i></i><i></i><i></i><span class="mono">anticorrupcion-estatal-1.onrender.com</span></div>
+            <img src="assets/vigia.webp" alt="Panel de Vigía con 58.160 contratos registrados, valor total y gráfica de contratos firmados en el tiempo" loading="lazy" width="1440" height="900" />
+          </a>
+          <img class="phone" src="assets/vigia-m.webp" alt="Vigía en un teléfono" loading="lazy" width="520" height="1126" />
+          <p class="panel__note mono">Datos de SECOP II consultados en nov. 2026 · ≈ $515 billones COP en contratos</p>
+        </div>
+      </article>
+
+      <!-- HELPDESK -->
+      <article class="panel" data-accent="#7c7cff" data-bg="#0e0f1c" style="--accent:#7c7cff">
+        <div class="panel__info">
+          <div class="panel__meta mono"><span>02 / 03</span><span class="stamp">Gestión de servicios TI</span></div>
+          <h3 class="panel__title">HelpDesk<br/>ITSM v3.0</h3>
+          <p class="panel__sub">Mesa de ayuda para recibir, clasificar, asignar y rastrear incidentes</p>
+          <p class="panel__desc">Plataforma de soporte técnico con inicio de sesión por roles (supervisor, coordinador, agente N1 y usuario), panel de control con indicadores de servicio, motor de asignación Round-Robin que balancea la carga entre agentes y un monitor de SLA con semáforo en tiempo real.</p>
+          <dl class="panel__stats">
+            <div><dt class="mono">Roles</dt><dd>4</dd></div>
+            <div><dt class="mono">KPIs</dt><dd>FCR · MTTR</dd></div>
+            <div><dt class="mono">SLA</dt><dd>Semáforo</dd></div>
+          </dl>
+          <ul class="chips mono"><li>ITSM</li><li>Round-Robin</li><li>Roles y permisos</li><li>UML</li><li>Netlify</li></ul>
+          <a class="btn btn--accent magnetic" href="https://helpdeskco.netlify.app/" target="_blank" rel="noopener" data-cursor="Abrir">Probar la demo <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="panel__visual">
+          <a class="frame tilt" href="https://helpdeskco.netlify.app/" target="_blank" rel="noopener" data-cursor="Visitar" aria-label="Abrir HelpDesk ITSM">
+            <div class="frame__bar"><i></i><i></i><i></i><span class="mono">helpdeskco.netlify.app</span></div>
+            <img src="assets/helpdesk.webp" alt="Panel de control de HelpDesk ITSM con tickets abiertos, en progreso, escalados y cumplimiento de SLA" loading="lazy" width="1440" height="900" />
+          </a>
+          <img class="phone" src="assets/helpdesk-m.webp" alt="HelpDesk ITSM en un teléfono" loading="lazy" width="520" height="1126" />
+          <p class="panel__note mono">Demo: carlos@empresa.co · admin123</p>
+        </div>
+      </article>
+
+      <!-- EXPLORA -->
+      <article class="panel" data-accent="#f5a524" data-bg="#17110a" style="--accent:#f5a524">
+        <div class="panel__info">
+          <div class="panel__meta mono"><span>03 / 03</span><span class="stamp">Turismo · Experiencia web</span></div>
+          <h3 class="panel__title">Explora<br/>Colombia</h3>
+          <p class="panel__sub">Agencia de viajes con destinos locales e internacionales</p>
+          <p class="panel__desc">Sitio comercial para una agencia de viajes: buscador por tipo de destino, rutas por regiones del mundo, 12 paquetes con precios en COP y USD, comparador de paquetes, guía de visas y documentación, testimonios y cotización directa por WhatsApp.</p>
+          <dl class="panel__stats">
+            <div><dt class="mono">Paquetes</dt><dd data-count="12">12</dd></div>
+            <div><dt class="mono">Continentes</dt><dd data-count="5">5</dd></div>
+            <div><dt class="mono">Monedas</dt><dd>COP · USD</dd></div>
+          </dl>
+          <ul class="chips mono"><li>Front-end</li><li>Diseño responsivo</li><li>UX comercial</li><li>Netlify</li></ul>
+          <a class="btn btn--accent magnetic" href="https://exploraco.netlify.app/" target="_blank" rel="noopener" data-cursor="Abrir">Explorar el sitio <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="panel__visual">
+          <a class="frame tilt" href="https://exploraco.netlify.app/" target="_blank" rel="noopener" data-cursor="Visitar" aria-label="Abrir Explora Colombia">
+            <div class="frame__bar"><i></i><i></i><i></i><span class="mono">exploraco.netlify.app</span></div>
+            <img src="assets/explora.webp" alt="Portada de Explora Colombia con el titular Descubre la magia de Colombia y un buscador de destinos" loading="lazy" width="1440" height="900" />
+          </a>
+          <img class="phone" src="assets/explora-m.webp" alt="Explora Colombia en un teléfono" loading="lazy" width="520" height="1126" />
+          <p class="panel__note mono">De Colombia para el mundo entero</p>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="sobre">
+  <p class="eyebrow mono">(Sobre mí · Propuesta de valor)</p>
+  <p class="about__statement" id="statement">Soy Camilo, desarrollador de software enfocado en construir herramientas que generen impacto y valor tangible. No me quedo en la teoría: diseño arquitecturas limpias, escribo código mantenible y resuelvo problemas de negocio con despliegues en producción. Listo para integrarme a equipos de ingeniería exigentes o liderar proyectos de desarrollo ágil.</p>
+
+  <div class="about__grid">
+    <div class="card-id">
+      <div class="card-id__top mono"><span>ID · DEV-022</span><span>MDE</span></div>
+      <div class="card-id__avatar" aria-hidden="true">CV</div>
+      <p class="card-id__name">Camilo Andrés<br/>Valderrama Alzate</p>
+      <dl class="card-id__rows mono">
+        <div><dt>Rol</dt><dd>Desarrollador de software</dd></div>
+        <div><dt>Disponibilidad</dt><dd style="color:var(--orange);font-weight:700">Inmediata · Full-time</dd></div>
+        <div><dt>Modalidad</dt><dd>Remoto / Medellín</dd></div>
+        <div><dt>Formación</dt><dd>Tecnología en Desarrollo</dd></div>
+        <div><dt>Institución</dt><dd>IU Pascual Bravo (Sem. 05)</dd></div>
+      </dl>
+      <div class="card-id__barcode" aria-hidden="true"></div>
+    </div>
+
+    <div class="caps">
+      <h3 class="caps__title">Lo que hago</h3>
+      <ul class="caps__list">
+        <li class="cap"><span class="mono">01</span><div><h4>Paneles de datos</h4><p>Convierto datasets públicos o internos en tableros que se entienden: filtros, indicadores, gráficas y alertas.</p></div></li>
+        <li class="cap"><span class="mono">02</span><div><h4>Sistemas de gestión</h4><p>Aplicaciones con roles, flujos de trabajo y reglas de negocio, desde el levantamiento de requisitos hasta el modelado UML.</p></div></li>
+        <li class="cap"><span class="mono">03</span><div><h4>Sitios web comerciales</h4><p>Experiencias rápidas y responsivas que venden: catálogos, cotizadores y contacto directo.</p></div></li>
+        <li class="cap"><span class="mono">04</span><div><h4>Redes y soporte</h4><p>Bases de redes de datos y simulación de infraestructuras LAN/WiFi con Cisco Packet Tracer.</p></div></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="stack" aria-label="Herramientas">
+    <div class="stack__row"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>SQL</span><span>Git</span><span>UML</span><span>Trello</span><span>Netlify</span><span>Render</span><span>Packet Tracer</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>SQL</span><span>Git</span><span>UML</span><span>Trello</span><span>Netlify</span><span>Render</span><span>Packet Tracer</span></div>
+  </div>
+</section>
+
+<!-- TERMINAL -->
+<section class="term-wrap" id="terminal">
+  <div class="term-head">
+    <p class="eyebrow mono">(Interactivo)</p>
+    <h2 class="section-title">Pregúntale<br/><em>a la terminal.</em></h2>
+    <p class="term-hint">Escribe un comando o toca una sugerencia. Prueba con <code>ayuda</code>.</p>
+  </div>
+  <div class="term" id="term">
+    <div class="term__bar"><i></i><i></i><i></i><span class="mono">camilo@medellin: ~</span></div>
+    <div class="term__body mono" id="termBody" aria-live="polite">
+      <p><span class="t-acc">camilo.dev</span> v2026 — escribe <b>ayuda</b> para ver los comandos.</p>
+    </div>
+    <form class="term__input mono" id="termForm" autocomplete="off">
+      <label for="termIn"><span class="t-acc">❯</span></label>
+      <input id="termIn" type="text" spellcheck="false" autocapitalize="off" placeholder="escribe un comando…" aria-label="Comando de terminal" />
+    </form>
+    <div class="term__chips">
+      <button type="button" data-cmd="sobre">sobre</button>
+      <button type="button" data-cmd="proyectos">proyectos</button>
+      <button type="button" data-cmd="stack">stack</button>
+      <button type="button" data-cmd="vigia">vigia</button>
+      <button type="button" data-cmd="contacto">contacto</button>
+      <button type="button" data-cmd="whatsapp">whatsapp</button>
+      <button type="button" data-cmd="linkedin">linkedin</button>
+      <button type="button" data-cmd="cafe">cafe</button>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contacto">
+  <p class="eyebrow mono">(Contacto)</p>
+  <h2 class="contact__title"><span class="split-word">¿Buscas un desarrollador?</span><br/><span class="split-word accent">Hablemos.</span></h2>
+  <div class="contact__row">
+    <a class="contact__mail magnetic" href="mailto:devcamilo1@gmail.com" data-cursor="Escribir">devcamilo1@gmail.com</a>
+    <button class="btn btn--ghost" id="copyBtn" type="button">Copiar correo</button>
+  </div>
+  <div class="contact__actions">
+    <a class="btn btn--whatsapp magnetic" href="https://wa.me/573013129658" target="_blank" rel="noopener" data-cursor="WhatsApp" aria-label="Escribir por WhatsApp">
+      <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+        <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm.01 18.08c-1.49 0-2.95-.4-4.22-1.16l-.3-.18-3.13.82.84-3.05-.2-.31a8.17 8.17 0 0 1-1.25-4.29c0-4.51 3.67-8.18 8.19-8.18 2.19 0 4.24.85 5.79 2.4 1.55 1.55 2.4 3.61 2.4 5.8 0 4.52-3.68 8.15-8.42 8.15zm4.49-6.13c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.24-1.47-1.39-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43s-.56-1.35-.77-1.85c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.84-.86 2.05s.88 2.38 1 2.55c.13.17 1.74 2.65 4.21 3.72.59.25 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.07-.12-.23-.19-.48-.31z"/>
+      </svg>
+      <span>WhatsApp · +57 301 312 9658</span>
+      <span class="btn__arrow" aria-hidden="true">↗</span>
+    </a>
+    <a class="btn btn--linkedin magnetic" href="https://www.linkedin.com/in/camilo-valderrama-dev" target="_blank" rel="noopener" data-cursor="LinkedIn" aria-label="Perfil de LinkedIn">
+      <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+        <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9h2.8v8.6h-2.8v-8.6M7.86 6.54a1.63 1.63 0 1 0 0 3.26 1.63 1.63 0 0 0 0-3.26z"/>
+      </svg>
+      <span>LinkedIn · camilo-valderrama-dev</span>
+      <span class="btn__arrow" aria-hidden="true">↗</span>
+    </a>
+  </div>
+  <p class="contact__note">Busco una oportunidad laboral como desarrollador de software. Disponible de inmediato para integrarme a un equipo en Medellín o remoto.</p>
+</section>
+</main>
+
+<footer class="foot">
+  <span class="mono">© 2026 Camilo Andrés Valderrama Alzate</span>
+  <div class="foot__social mono">
+    <a href="https://wa.me/573013129658" target="_blank" rel="noopener">WhatsApp (+57 301 312 9658)</a>
+    <span>·</span>
+    <a href="https://www.linkedin.com/in/camilo-valderrama-dev" target="_blank" rel="noopener">LinkedIn</a>
+  </div>
+  <a href="#inicio" class="mono" data-link>Volver arriba ↑</a>
+</footer>
+
+<div class="toast mono" id="toast" role="status"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="app.js"></script>
+<script data-pplx-inline-edit>
+(function () {
+  if (window === window.top) return;
+
+  const allowedParentOrigins = ["https://www.perplexity.ai","https://perplexity.ai","https://testing.perplexity.ai","https://staging.perplexity.ai","https://*.preview.i.perplexity.ai","http://perplexity.localhost","http://localhost:1420","http://127.0.0.1:1420","http://localhost:3000","http://127.0.0.1:3000","http://localhost:5173","http://127.0.0.1:5173"];
+  const MAX_FONT_BYTES = 500 * 1024;
+  const MAX_TOTAL_FONT_BYTES = 2 * 1024 * 1024;
+  const DEFAULT_LINE_HEIGHT = 16;
+  let scrollForwarding = false;
+  let scrollRaf = 0;
+  let trustedTopOrigin = null;
+
+  // Allow entries like "https://*.preview.i.perplexity.ai" — the wildcard
+  // matches a single DNS label (no dots), so "https://*.foo" cannot stretch
+  // across multiple labels.
+  function matchesAllowedOrigin(origin) {
+    if (!origin) return false;
+    for (const entry of allowedParentOrigins) {
+      if (!entry.includes("*")) {
+        if (entry === origin) return true;
+        continue;
+      }
+      const pattern = new RegExp(
+        "^" +
+          entry.replace(/[.+?^${}()|[\]\\]/g, "\\$&").replace(/\*/g, "[^.]+") +
+          "$",
+      );
+      if (pattern.test(origin)) return true;
+    }
+    return false;
+  }
+
+  // Trust decision: when the sender is same-origin-visible (event.origin is a
+  // real origin like https://www.perplexity.ai) we trust event.origin directly.
+  // When event.origin is "null" (opaque broker srcdoc), we fall back to the
+  // broker's stamped `parentOrigin` to identify the top window. The fallback
+  // is claim-only — we rely on the browser's native `targetOrigin` enforcement
+  // on the response path (see postToTrustedTop) to ensure replies can't be
+  // delivered to anyone but the actual top window of that claimed origin.
+  function getTrustedParentOrigin(event) {
+    const forwardedParentOrigin =
+      typeof event.data.parentOrigin === "string" ? event.data.parentOrigin : null;
+    const parentOrigin = event.origin === "null" ? forwardedParentOrigin : event.origin;
+    return matchesAllowedOrigin(parentOrigin) ? parentOrigin : null;
+  }
+
+  // All responses go to window.top with targetOrigin = the allowlisted origin.
+  // An attacker that iframes us inside their own null-origin broker can claim
+  // any parentOrigin they like, but the browser will drop the reply whenever
+  // the real top's origin doesn't match — so the screenshot never leaves.
+  function postToTrustedTop(message) {
+    if (!trustedTopOrigin) return;
+    try {
+      window.top.postMessage(message, trustedTopOrigin);
+    } catch (_error) {}
+  }
+
+  const PICK_CAPABILITIES = ["pick"];
+  const PICK_CHAIN_LENGTH = 4;
+  const PICK_MAX_TEXT_CHARS = 120;
+  const PICK_MAX_HTML_CHARS = 300;
+
+  function truncate(value, maxChars) {
+    return value.length > maxChars ? value.slice(0, maxChars - 1) + "…" : value;
+  }
+
+  function isPickableElement(element) {
+    return (
+      element instanceof Element &&
+      element !== document.documentElement &&
+      element !== document.body
+    );
+  }
+
+  function resolvePickTarget(x, y) {
+    if (!Number.isFinite(x) || !Number.isFinite(y)) return null;
+    const element = document.elementFromPoint(x, y);
+    return isPickableElement(element) ? element.closest("svg") || element : null;
+  }
+
+  function pickLabel(element) {
+    if (element.id) return element.localName + "#" + element.id;
+    return [element.localName].concat(Array.from(element.classList).slice(0, 2)).join(".");
+  }
+
+  // Only attributes that help find the element in source. data-* values and URL
+  // query strings or fragments can carry tokens.
+  const PICK_ATTRIBUTES = new Set([
+    "id",
+    "class",
+    "name",
+    "type",
+    "role",
+    "alt",
+    "aria-label",
+    "href",
+    "src",
+  ]);
+
+  function pickAttributeValue(attribute) {
+    return attribute.name === "href" || attribute.name === "src"
+      ? attribute.value.split(/[?#]/)[0]
+      : attribute.value;
+  }
+
+  function describePickElement(element) {
+    const chain = [];
+    for (
+      let current = element;
+      isPickableElement(current) && chain.length < PICK_CHAIN_LENGTH;
+      current = current.parentElement
+    ) {
+      chain.unshift(current);
+    }
+    const attributes = Array.from(element.attributes)
+      .filter((attribute) => PICK_ATTRIBUTES.has(attribute.name))
+      .map((attribute) => ` ${attribute.name}="${pickAttributeValue(attribute).replace(/"/g, "&quot;")}"`)
+      .join("");
+    const text = (element.innerText || element.textContent || "").replace(/\s+/g, " ").trim();
+    return {
+      chain: chain.map(pickLabel),
+      html: truncate(`<${element.localName}${attributes}>`, PICK_MAX_HTML_CHARS),
+      text: text ? truncate(text, PICK_MAX_TEXT_CHARS) : undefined,
+    };
+  }
+
+  // Hover asks once per frame, and innerText on a large section forces layout,
+  // so only the rect is re-read while the pointer stays on the same element.
+  // Clicks ask for fresh details since the page may have changed the element.
+  let lastPick = null;
+
+  function describePickTarget(element, fresh) {
+    if (fresh || lastPick?.element !== element) {
+      lastPick = { element, details: describePickElement(element) };
+    }
+    const rect = element.getBoundingClientRect();
+    return {
+      rect: { x: rect.left, y: rect.top, width: rect.width, height: rect.height },
+      ...lastPick.details,
+    };
+  }
+
+  function inlineAll(original, clone) {
+    if (original.nodeType !== 1 || clone.nodeType !== 1) return;
+
+    try {
+      const computedStyle = getComputedStyle(original);
+      // cssText on a computed style is the serialized declaration in modern
+      // Chromium/Safari — a single read beats enumerating ~400 longhand
+      // properties. Firefox returns "" here, so we fall back on empty.
+      const serialized = computedStyle.cssText;
+      if (serialized) {
+        clone.style.cssText = serialized;
+      } else {
+        const parts = new Array(computedStyle.length);
+        for (let index = 0; index < computedStyle.length; index += 1) {
+          const property = computedStyle[index];
+          parts[index] = `${property}:${computedStyle.getPropertyValue(property)};`;
+        }
+        clone.style.cssText = parts.join("");
+      }
+    } catch (_error) {}
+
+    const originalChildren = original.children;
+    const clonedChildren = clone.children;
+    for (
+      let index = 0;
+      index < originalChildren.length && index < clonedChildren.length;
+      index += 1
+    ) {
+      inlineAll(originalChildren[index], clonedChildren[index]);
+    }
+  }
+
+  function extractFontUrl(srcValue) {
+    const matches = [
+      ...srcValue.matchAll(
+        /url\(["']?([^"')]+)["']?\)(?:\s*format\(["']?([^"')]+)["']?\))?/gi,
+      ),
+    ];
+    if (matches.length === 0) return null;
+    const woff2 = matches.find((m) => m[2] && m[2].toLowerCase().includes("woff2"));
+    if (woff2) return woff2[1];
+    const woff = matches.find((m) => m[2] && m[2].toLowerCase().includes("woff"));
+    if (woff) return woff[1];
+    return matches[0][1];
+  }
+
+  // Cache resolved font URL -> data URI across captures. Fonts on a page
+  // essentially never change, and a batch run emits multiple captures back to
+  // back — without this we'd refetch + re-base64 every time.
+  const fontDataUriCache = new Map();
+  const SRC_DECLARATION_RE = /src\s*:\s*[^;}]+/i;
+
+  async function fetchAsDataUri(url) {
+    if (fontDataUriCache.has(url)) return fontDataUriCache.get(url);
+    let dataUri = null;
+    try {
+      const response = await fetch(url, { mode: "cors", credentials: "omit" });
+      if (response.ok) {
+        const blob = await response.blob();
+        if (blob.size <= MAX_FONT_BYTES) {
+          dataUri = await new Promise((resolve) => {
+            const reader = new FileReader();
+            reader.onloadend = () =>
+              resolve(typeof reader.result === "string" ? reader.result : null);
+            reader.onerror = () => resolve(null);
+            reader.readAsDataURL(blob);
+          });
+        }
+      }
+    } catch (_error) {
+      dataUri = null;
+    }
+    fontDataUriCache.set(url, dataUri);
+    return dataUri;
+  }
+
+  function collectFontFaceRuleTexts() {
+    const rules = [];
+    for (const sheet of document.styleSheets) {
+      let cssRules;
+      try {
+        cssRules = sheet.cssRules;
+      } catch (_error) {
+        continue;
+      }
+      if (!cssRules) continue;
+      for (const rule of cssRules) {
+        const cssText = rule.cssText || "";
+        if (cssText.startsWith("@font-face")) rules.push(cssText);
+      }
+    }
+    return rules;
+  }
+
+  async function buildInlinedFontCss() {
+    const ruleTexts = collectFontFaceRuleTexts();
+    if (ruleTexts.length === 0) return null;
+
+    const resolved = ruleTexts.map((cssText) => {
+      if (!SRC_DECLARATION_RE.test(cssText)) return null;
+      const srcMatch = cssText.match(/src\s*:\s*([^;}]+)[;}]/i);
+      if (!srcMatch) return null;
+      const url = extractFontUrl(srcMatch[1]);
+      if (!url) return null;
+      try {
+        return { cssText, url: new URL(url, document.baseURI).href };
+      } catch (_error) {
+        return null;
+      }
+    });
+
+    const dataUris = await Promise.all(
+      resolved.map((entry) => (entry ? fetchAsDataUri(entry.url) : Promise.resolve(null))),
+    );
+
+    const inlined = [];
+    let totalBytes = 0;
+    for (let index = 0; index < resolved.length; index += 1) {
+      const entry = resolved[index];
+      const dataUri = dataUris[index];
+      if (!entry || !dataUri) continue;
+      const approxBytes = dataUri.length * 0.75;
+      if (totalBytes + approxBytes > MAX_TOTAL_FONT_BYTES) break;
+      totalBytes += approxBytes;
+      inlined.push(entry.cssText.replace(SRC_DECLARATION_RE, `src: url("${dataUri}")`));
+    }
+    return inlined.length > 0 ? inlined.join("\n") : null;
+  }
+
+  function stripExternal(clone) {
+    const images = clone.querySelectorAll("img");
+    for (let index = 0; index < images.length; index += 1) {
+      const src = images[index].getAttribute("src");
+      if (src && !src.startsWith("data:")) images[index].removeAttribute("src");
+    }
+
+    const elements = clone.querySelectorAll("*");
+    for (let index = 0; index < elements.length; index += 1) {
+      const style = elements[index].style.cssText;
+      if (style && style.includes("url(")) {
+        elements[index].style.cssText = style.replace(
+          /url\(["']?(?!data:)[^)"']*["']?\)/gi,
+          "none",
+        );
+      }
+    }
+  }
+
+  function emitScroll() {
+    scrollRaf = 0;
+    if (!scrollForwarding) return;
+    postToTrustedTop({
+      type: "INLINE_EDIT_SCROLL",
+      scrollX: window.scrollX,
+      scrollY: window.scrollY,
+      capabilities: PICK_CAPABILITIES,
+    });
+  }
+
+  window.addEventListener(
+    "scroll",
+    function () {
+      if (!scrollForwarding || scrollRaf) return;
+      scrollRaf = requestAnimationFrame(emitScroll);
+    },
+    { passive: true, capture: true },
+  );
+
+  async function handleCaptureRequest(event) {
+    const requestId = event.data.requestId;
+    const scrollX = window.scrollX;
+    const scrollY = window.scrollY;
+    const width = window.innerWidth;
+    const height = window.innerHeight;
+
+    function postResult(dataUrl) {
+      postToTrustedTop({
+        type: "INLINE_EDIT_SCREENSHOT_RESULT",
+        requestId,
+        dataUrl,
+        scrollX,
+        scrollY,
+      });
+    }
+
+    try {
+      // Wait for any pending web fonts to resolve so both inline metrics and
+      // the @font-face inlining below see the same loaded faces.
+      if (document.fonts && document.fonts.ready) {
+        try {
+          await document.fonts.ready;
+        } catch (_error) {}
+      }
+
+      const clone = document.documentElement.cloneNode(true);
+      inlineAll(document.documentElement, clone);
+
+      const removedNodes = clone.querySelectorAll("script,link[rel=\"stylesheet\"],style");
+      for (let index = 0; index < removedNodes.length; index += 1) {
+        removedNodes[index].remove();
+      }
+
+      stripExternal(clone);
+
+      // Re-embed web fonts as data-URI @font-face rules so the SVG rasterizer
+      // can resolve them — external font URLs aren't fetched during
+      // foreignObject rendering, which would otherwise force a fallback face
+      // and change text metrics.
+      const inlinedFontCss = await buildInlinedFontCss();
+      if (inlinedFontCss) {
+        const styleEl = document.createElement("style");
+        styleEl.textContent = inlinedFontCss;
+        const head = clone.querySelector("head");
+        if (head) head.appendChild(styleEl);
+        else clone.insertBefore(styleEl, clone.firstChild);
+      }
+
+      const html = new XMLSerializer().serializeToString(clone);
+      const svg =
+        `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}">` +
+        '<foreignObject width="100%" height="100%">' +
+        `<div xmlns="http://www.w3.org/1999/xhtml" style="width:${width}px;height:${height}px;overflow:hidden">` +
+        `<div style="position:relative;left:-${scrollX}px;top:-${scrollY}px">` +
+        html +
+        "</div></div></foreignObject></svg>";
+      const svgUrl = `data:image/svg+xml;charset=utf-8,${encodeURIComponent(svg)}`;
+      const image = new Image();
+      image.onload = function () {
+        const canvas = document.createElement("canvas");
+        canvas.width = width;
+        canvas.height = height;
+        canvas.getContext("2d").drawImage(image, 0, 0);
+        postResult(canvas.toDataURL("image/png"));
+      };
+      image.onerror = function () {
+        postResult(null);
+      };
+      image.src = svgUrl;
+    } catch (_error) {
+      postResult(null);
+    }
+  }
+
+  window.addEventListener("message", function (event) {
+    if (!event.data) return;
+    // Only accept messages from the direct parent frame. Blocks sibling /
+    // unrelated-window postMessage senders that could otherwise reach us.
+    if (event.source !== window.parent) return;
+
+    const trustedParentOrigin = getTrustedParentOrigin(event);
+    if (!trustedParentOrigin) return;
+    trustedTopOrigin = trustedParentOrigin;
+
+    if (event.data.type === "INLINE_EDIT_PICK") {
+      const element = resolvePickTarget(event.data.x, event.data.y);
+      postToTrustedTop({
+        type: "INLINE_EDIT_PICK_RESULT",
+        seq: event.data.seq,
+        target: element ? describePickTarget(element, event.data.fresh === true) : null,
+      });
+      return;
+    }
+
+    if (event.data.type === "INLINE_EDIT_SCROLL_START") {
+      scrollForwarding = true;
+      emitScroll();
+      return;
+    }
+
+    if (event.data.type === "INLINE_EDIT_SCROLL_STOP") {
+      scrollForwarding = false;
+      if (scrollRaf) cancelAnimationFrame(scrollRaf);
+      scrollRaf = 0;
+      return;
+    }
+
+    if (event.data.type === "INLINE_EDIT_SCROLL_BY") {
+      const { deltaX, deltaY, deltaMode } = event.data;
+      if (!scrollForwarding || !Number.isFinite(deltaX) || !Number.isFinite(deltaY)) return;
+      if (deltaMode !== 0 && deltaMode !== 1 && deltaMode !== 2) return;
+      const lineHeight =
+        parseFloat(getComputedStyle(document.documentElement).lineHeight) || DEFAULT_LINE_HEIGHT;
+      const scaleX = deltaMode === 1 ? lineHeight : deltaMode === 2 ? window.innerWidth : 1;
+      const scaleY = deltaMode === 1 ? lineHeight : deltaMode === 2 ? window.innerHeight : 1;
+      // The selection overlay receives the wheel event instead of this iframe.
+      // Instant scrolling preserves trackpad deltas even on smooth-scroll sites.
+      window.scrollBy({ left: deltaX * scaleX, top: deltaY * scaleY, behavior: "instant" });
+      emitScroll();
+      return;
+    }
+
+    if (event.data.type !== "INLINE_EDIT_CAPTURE_REQUEST") return;
+
+    handleCaptureRequest(event);
+  });
+})();
+
+
+</script></body>
+</html>
